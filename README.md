@@ -20,7 +20,7 @@
    1. [Naming Conventions](markdown/concepts-naming-conventions.md)
    1. [Data Lake Structure](markdown/concepts-data-lake-structure.md)
 1. Other
-   1. [Frequently Asked Questions](others-frequently-asked-questions.md)
+   1. [Frequently Asked Questions](markdown/others-frequently-asked-questions.md)
 
 
 ## Contributing
