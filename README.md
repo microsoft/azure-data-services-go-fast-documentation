@@ -1,7 +1,7 @@
 # Table of Contents
 
 1. Overview
-   1. [What is ADS Go Fast Framework?](markdown/overview.md)
+   1. [What is the ADS Go Fast Framework?](markdown/overview.md)
    1. [Product Limitations](markdown/overview-product-limitations.md)
    1. [Deployment](markdown/overview-deployment.md)
 1. Quickstart
