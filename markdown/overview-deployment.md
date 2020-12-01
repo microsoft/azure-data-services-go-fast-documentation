@@ -101,9 +101,15 @@ We will use pre-defined YML templates.
 
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
 
-    "TenantId": "####",//Tenant ID of target Azure environment
-
-    "ApplicationId": "####", //Service Principal App id. Only needed for local development environment
+    "AZURE_TENANT_ID": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+   
+    "TenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+    
+    "AZURE_CLIENT_ID": "###", //Service Prinicpal Client Id. Only needed for local development environment (note repeated below due to use of legacy auth provider AND new auth provider)
+    
+    "ApplicationId": "####", //Service Prinicpal Client Id. Only needed for local development environment 
+    
+    "AZURE_CLIENT_SECRET": "####", //Service Prinicpal Auth Key. Only needed for local development environment (note repeated below due to use of legacy auth provider AND new auth provider)
 
     "AuthenticationKey": "####", //Service Prinicpal Auth Key. Only needed for local development environment
 
