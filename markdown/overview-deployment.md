@@ -68,18 +68,20 @@ In this section you will use automated deployment and ARM templates to automate 
 
 
 # Solution Deployment and Configuration
-In this section you will use Azure DevOps to deploy Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integratiion Runtime) and Azure Functions.
-We will use pre-defined YML templates.
+In this section you will use Azure DevOps to deploy Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integratiion Runtime) and Azure Functions.Click through the links below and follow the instructions provided.
 
-## Azure SQL Database 
 
-- Deploy Database Project, including Post Deployment Script
-    - Change Configuration on Post Deployment Script, such as:
-        - Database connection on INSERT INTO [dbo].[SourceAndTargetSystems]
-        - Data Factory Details 
-    - Add AAD Group to SQL Server
-    - Add MSI Access to ADSGoFast for Azure Functions
-- ADD to ARM Template
+1. [Deploy Azure SQL Database](./overview-deployment-azuresql.md)
+
+1. [Deploy Azure Data Factory Artefacts Application](./overview-deployment-adf.md)
+
+1. [Deploy Azure Function Application](./overview-deployment-funcapp.md)
+
+1. [Deploy Web Application](./overview-deployment-webapp.md)
+
+
+
+# ADD to ARM Template
     - Create Staging database
     - Create Storage Container "datalakeraw and datalakelanding" on Data Lake Storage
     - Create Transient Storage Account and add Containers "transientin and transientout"
@@ -87,80 +89,7 @@ We will use pre-defined YML templates.
     - Create SendGrid Resource
     - Create Log Analytics
 
-## Azure Data Factory
-- Deploy Data Factory Artefacts
-- Give MSI access to Azure Function in ADF
 
-## Azure Functions 
-- Open the Azure Function project located at "\solution\FunctionApp\" in Visual Studio
-- Create a Local.Settings file in the solution using the template below:
-
-```jsonc
-{
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true", //Only needed for local development environment
-
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-
-    "AZURE_TENANT_ID": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-   
-    "TenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    
-    "AZURE_CLIENT_ID": "###", //Service Prinicpal Client Id. Only needed for local development environment (note repeated below due to use of legacy auth provider AND new auth provider)
-    
-    "ApplicationId": "####", //Service Prinicpal Client Id. Only needed for local development environment 
-    
-    "AZURE_CLIENT_SECRET": "####", //Service Prinicpal Auth Key. Only needed for local development environment (note repeated below due to use of legacy auth provider AND new auth provider)
-
-    "AuthenticationKey": "####", //Service Prinicpal Auth Key. Only needed for local development environment
-
-    "UseMSI": true, //Set to true in Azure function deployments and false for local developement deployments
-
-    "FrameworkWideMaxConcurrency": 400, //Max number of concurrent tasks supported
-
-    "AdsGoFastTaskMetaDataDatabaseServer": "#######.database.windows.net", //Address of the framework configuration database
-
-    "AdsGoFastTaskMetaDataDatabaseName": "AdsGoFast",//Database name of the framework configuration database
-
-    "AdsGoFastTaskMetaDataDatabaseUseTrustedConnection": false, //Only needed for local development environment
-
-    "TaskMetaDataStorageAccount": "###", //Only needed for local development environment when we don't want to use a configuration database
-
-    "TaskMetaDataStorageContainer": "###",//Only needed for local development environment when we don't want to use a configuration database
-
-    "TaskMetaDataStorageFolder": "###",//Only needed for local development environment when we don't want to use a configuration database
-
-    "SQLTemplateLocation": ".\\SqlTemplates\\", //Location of SQL Template files ... for local development you should not need to change this. For cloud delployment you need to change to D:\home\site\wwwroot\SqlTemplates\
-
-    "KQLTemplateLocation": ".\\KqlTemplates\\", //Location of KQL Template files ... for local development you should not need to change this. For cloud delployment you need to change to D:\home\site\wwwroot\KqlTemplates\
-
-    "HTMLTemplateLocation": ".\\HTMLEmailTemplates\\", /* !!!!!!! New !!!!!!! */ //Location of Email Template files ... for local development you should not need to change this. For cloud delployment you need to change to D:\home\site\wwwroot\HTMLEmailTemplates\
-
-    "EnablePrepareFrameworkTasks": true, //Set to false to "turn-off" the prepare tasks function for local development environments. 
-
-    "EnableRunFrameworkTasks": true, //Set to false to "turn-off" the run tasks function for local development environments. 
-
-    "EnableGetADFStats": true, //Set to false to "turn-off" the get ADF stats functions for local development environments. 
-
-    "AzureFunctionURL": "http://localhost:7071", //Set to your Azure function App base address for cloud deployments.
-
-    "GetSASUriSendEmailHttpTriggerAzureFunctionKey": "#####", //Set to the value of the Azure Function key. This allows the main functions in the Azure function app to call the GetSASUriSendEmailHttpTrigger function via an HTTP Post.
-
-    "RunFrameworkTasksHttpTriggerAzureFunctionKey": "#####", //Set to the value of the Azure Function key. This allows the main functions in the Azure function app to call the RunFrameworkTasksHttpTriggerr function via an HTTP request.
-
-    "SENDGRID_APIKEY": "##########",//Set to your Sendgrid Key
-
-    "AZStorageCacheFileListHttpTriggerAzureFunctionKey": "NA",/* !!!!!!! New !!!!!!! */   //Set to the value of the Azure Function key. This allows the main functions in the Azure function app to call the AZStorageCacheFileListHttpTrigger function via an HTTP request.
-
-    "DefaultSentFromEmailAddress": "noreply@######.com",/* !!!!!!! New !!!!!!! */ //Set to default sent from address (system wide)
-
-    "DefaultSentFromEmailName": "Ads Go Fast (No Reply)",/* !!!!!!! New !!!!!!! */ //Set to default sent from address name (system wide)
-
-    "GenerateTaskObjectTestFiles": false,/* !!!!!!! New !!!!!!! */ //Provides the ability to generate UnitTest files instead of calling ADF or AF for task processing
-
-    "TaskObjectTestFileLocation": ".\\UnitTestResults\\"/* !!!!!!! New !!!!!!! */ //Location of UnitTest Files... for local development you should not need to change this. For cloud delployment you need to change to D:\home\site\wwwroot\UnitTestResults\
-
-  }
-  ```
 
 
 

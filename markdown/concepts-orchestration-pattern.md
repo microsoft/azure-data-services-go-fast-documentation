@@ -22,16 +22,16 @@ The primary orchestration pattern is controlled by two timer triggered Azure fun
 
 1. Azure Function Runs on Timed Schedule (eg. Every 5 minutes)
 
-    - [] Check status of running pipelines and calculate available "slots" based on max concurrency settings
-    - [] Generate new task instances based on task master and schedules
-    - [] Identify tasks due to be run or overdue. Fetch top # tasks to be run based on available slots - simultaneously mark these as "InProgress". 
-    - [] Async initiate pipeline execution for tasks - Persist status of these taskinstanceexections as "InProgress"
-    - [] 
+    * Check status of running pipelines and calculate available "slots" based on max concurrency settings
+    * Generate new task instances based on task master and schedules
+    * Identify tasks due to be run or overdue. Fetch top # tasks to be run based on available slots - simultaneously mark these as "InProgress". 
+    * Async initiate pipeline execution for tasks - Persist status of these taskinstanceexections as "InProgress"
+     
 
 ## Scheduling Tasks
 The schedule can be configured in 2 different ways:
-1. in development, a simple schedule could be used for everything - eg defining it as running every minute - but without having an external triggering mechanism. The task can be triggered manually as described below.  
-1. in production, by specifying correct cron scheduling expressions and establishing an external period trigger of the Task Execution mechanism.
+1. In development, a simple schedule could be used for everything - eg defining it as running every minute - but without having an external triggering mechanism. The task can be triggered manually as described below.  
+1. In production, by specifying correct cron scheduling expressions and establishing an external period trigger of the Task Execution mechanism.
 
 ## Development Task Execution
 The task can be triggered 2 different ways:
