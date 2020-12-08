@@ -59,16 +59,9 @@ In this section you will use automated deployment and ARM templates to automate 
 
     ![](../deploy/Media/Lab0-Image09.png)
 
-## Access provisioning
-
-- MSI 
-    - Azure Data Factory uses MSI to authenticate to staging database (Azure SQL Database), Azure KeyVault and Azure Storage;
-    - Azure Data Factory use SQL Authentication to authenticate to On-Prem SQL Server;
-    - Azure Functions uses MSI to authenticate to ADSGoFast database (Azure SQL Database), Azure Storage, Azure Data Factory;
-
 
 # Solution Deployment and Configuration
-In this section you will use Azure DevOps to deploy Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integratiion Runtime) and Azure Functions.Click through the links below and follow the instructions provided.
+In this section you will use Azure DevOps to deploy the Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integratiion Runtime), Azure Function Application, and Administrative Web Application. Click through the links below and follow the instructions provided.
 
 
 1. [Deploy Azure SQL Database](./overview-deployment-azuresql.md)
@@ -80,6 +73,12 @@ In this section you will use Azure DevOps to deploy Database project, Data Facto
 1. [Deploy Web Application](./overview-deployment-webapp.md)
 
 
+## Access provisioning
+
+- MSI 
+    - Azure Data Factory uses MSI to authenticate to staging database (Azure SQL Database), Azure KeyVault and Azure Storage;
+    - Azure Data Factory use SQL Authentication to authenticate to On-Prem SQL Server;
+    - Azure Functions uses MSI to authenticate to ADSGoFast database (Azure SQL Database), Azure Storage, Azure Data Factory;
 
 # ADD to ARM Template
     - Create Staging database
