@@ -5,7 +5,3 @@
 - Deploy the database project to the new Azure SQL Server instance that has been created in your sandbox environment by the deployment process. 
 - Run the Post Deployment scripts located at \solution\Database\ADSGoFastDatabase\ADSGoFastDatabase\Scripts\. Your newly created database should be the target for these scripts. 
 
-## Configuration
-- Add AAD Group to SQL Server
-- Add MSI Access to ADSGoFast for Azure Functions
-    
