@@ -61,7 +61,7 @@ In this section you will use automated deployment and ARM templates to automate 
 
 
 # Solution Deployment and Configuration
-In this section you will use Azure DevOps to deploy the Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integratiion Runtime), Azure Function Application, and Administrative Web Application. Click through the links below and follow the instructions provided.
+In this section you will use Azure DevOps to deploy the Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integration Runtime), Azure Function Application, and Administrative Web Application. Click through the links below and follow the instructions provided.
 
 
 1. [Deploy Azure SQL Database](./overview-deployment-azuresql.md)
