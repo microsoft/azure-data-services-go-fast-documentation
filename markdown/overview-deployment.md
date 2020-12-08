@@ -34,9 +34,9 @@ In this section you will use automated deployment and ARM templates to automate 
 
 1. You can deploy all Azure services required by clicking the **Deploy to Azure** button below. 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fszenatti%2Fads-go-fast%2Fmaster%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fazure-data-services-go-fast-codebase%2Fblob%2Fmain%2FDeploy%2Fazuredeploy.json)
 
-[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fszenatti%2Fads-go-fast%2Fmaster%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fgithub.com%2Fmicrosoft%2Fazure-data-services-go-fast-codebase%2Fblob%2Fmain%2FDeploy%2Fazuredeploy.json)
 
 2. You will be directed to the Azure portal to deploy the ADS Go Fast ARM template from this repository. On the **Custom deployment** blade, enter the following details:
 
