@@ -1,7 +1,7 @@
 # Introduction 
-Welcome to the documentation repository for the Azure Data Services Go Fast.
+Welcome to the documentation repository for the Azure Data Services Go Fast. This repository provides documentation for the [azure-data-services-go-fast-codebase](https://github.com/microsoft/azure-data-services-go-fast-codebase). Only documentation is maintained in this repository. The repository utilises Gut Hub Pages to serve the core documentation content which is all contained within the "gh-pages" branch.  
 
-The documents can be browsed at the link below:
+The documents can be browsed and edited at the link below:
 [https://microsoft.github.io/azure-data-services-go-fast-documentation/](https://microsoft.github.io/azure-data-services-go-fast-documentation/)
 
 ## Contributing
