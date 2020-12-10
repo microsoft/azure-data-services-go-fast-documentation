@@ -1,0 +1,5 @@
+# Deploy the Data Factory Artefacts
+
+- In the Azure portal navigate to the Azure Data Factory instance that was created during the ARM template deployment process. 
+- Connect a Git Repository to this Azure Data Factory. [Click here for details](https://docs.microsoft.com/en-us/azure/data-factory/source-control)
+- Once you have set-up your Azure Data Factory Git repository copy the contents from "\solution\DataFactory" into the new repository. 

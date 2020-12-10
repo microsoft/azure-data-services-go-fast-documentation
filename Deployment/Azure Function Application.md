@@ -1,6 +1,7 @@
 # Deploy and Configure Function Application 
 
 - Open the Azure Function project located at "\solution\FunctionApp\" in Visual Studio
+- Restore your Nuget packages
 - Deploy the solution to the App Service Environment created by the ARM deployment script. 
 - Once deployed you will need to set the Function App settings via the Azure Portal. Use the **App Settings Template** provided below to create the appropriate settings. Note, you may not have some of the required information yet as some of it is created later in the deployment and configuration process. If you don't know what to fill out just leave a placeholder value there for now.  
 - For local development and testing create a "Local.Settings" file in the solution using the **App Settings Template** template. Note, you may not have some of the required information yet as some of it is created later in the deployment and configuration process. If you don't know what to fill out just leave a placeholder value there for now.
