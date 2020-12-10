@@ -1,4 +1,8 @@
-# Azure SQL Database Deployment & Configuration
+---
+sort: 4
+---
+
+# Database Deployment
 
 - Open the database project located in the folder 
 "{RepoCloneDir} \solution\Database\ADSGoFastDatabase\ADSGoFastDatabase.sln". This is a Visual Studio Data Tools project file and will require Visual Studio data tools to be installed on your machine. 

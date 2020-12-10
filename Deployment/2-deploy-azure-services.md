@@ -2,7 +2,7 @@
 sort: 2
 ---
 
-## Deploy Azure Services
+# Deploy Azure Services
 In this section you will use automated deployment and ARM templates to automate the deployment of all Azure Data Services.
 
 1. You can deploy all Azure services required by clicking the **Deploy to Azure** button below. 
