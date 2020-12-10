@@ -1,4 +1,4 @@
-# High Level Architecture 
+# Solution Architecture 
 
 
 

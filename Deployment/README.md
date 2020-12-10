@@ -2,21 +2,10 @@
 sort: 0
 ---
 
-# Azure Data Service Go Fast - Deployment
+# Solution Deployment
 
 In this section you will automatically provision all of the Azure resources required to run ADSGoFast Framework. We will use a pre-defined ARM template with the definition of all Azure services used for a small development environment. After the core services have been provisioned we will then deploy and configure the solution code base.  
 
-## Azure services
-
-
-
-
---------------------------------------
-
-
-
-## Obtain the source code
-Get a copy of the source code by either donwloading it as a zip file from git or cloning the repository. 
 
 ## Solution Deployment and Configuration
 In this section you will use Azure DevOps to deploy the Database project, Data Factory components (Pipeline, Datasets, LinkedServices and Integration Runtime), Azure Function Application, and Administrative Web Application. Click through the links below and follow the instructions provided.
