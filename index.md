@@ -2,6 +2,8 @@
 
 Welcome to the documentation website for the Azure Data Services Go Fast. 
 
+![CapabilityAssessmentOverview.png](../assets/img/CapabilityAssessmentOverview.png)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
