@@ -4,7 +4,7 @@ sort: 1
 
 # Azure Services to be deployed
 
-Please not that these instuctions will deploy the following Azure Services into your subscription:
+Please note that these instuctions will deploy the following Azure Services into your subscription:
 
 Name                        | Type | Pricing Tier | Pricing Info |
 ----------------------------|------|--------------|--------------|
