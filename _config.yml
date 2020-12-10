@@ -1,6 +1,6 @@
-title: Your awesome title
+title: Azure Data Services Go Fast Documentation
 lang: en
-description: Write an awesome description for your new site here
+description: Documentation for the Azure Data Services Go Fast Framework. A framework for rapid deployment and configuration of common Azure Data Services Architectures.
 
 ## local method ##
 #theme: jekyll-rtd-theme
