@@ -1,27 +1,8 @@
-# Table of Contents
+# Introduction 
+Welcome to the documentation repository for the Azure Data Services Go Fast.
 
-1. Overview
-   1. [What is the ADS Go Fast Framework?](markdown/overview.md)
-   1. [Product Limitations](markdown/overview-product-limitations.md)
-   1. [Deployment](markdown/overview-deployment.md)
-1. Quickstart
-   1. [Deploy Sample Data Ingestion](markdown/deploy-sample-data-ingestion.md)
-   1. [Refresh Environment](markdown/refresh-environment.md)
-1. How-to guides
-   1. [Web App overview](markdown/how-to-guides-web-app-overview.md)
-   1. [Ingesting SQL Data Sources ](markdown/how-to-guides-ingesting-sql-data-sources.md)
-   1. [Ingesting CSV Data Sources ](markdown/how-to-guides-ingesting-csv-data-sources.md)
-   1. [Ingesting JSON Data Sources ](markdown/how-to-guides-ingesting-json-data-sources.md)
-   1. [Ingesting Excel Data Sources ](markdown/how-to-guides-ingesting-excel-data-sources.md)
-   1. [Ingesting Parquet Data Sources ](markdown/how-to-guides-ingesting-excel-data-sources.md)
-1. Concepts
-   1. [Metadata Structure](markdown/concepts-metadata-structure.md)
-   1. [Orchestration Pattern](markdown/concepts-orchestration-pattern.md)
-   1. [Naming Conventions](markdown/concepts-naming-conventions.md)
-   1. [Data Lake Structure](markdown/concepts-data-lake-structure.md)
-1. Other
-   1. [Frequently Asked Questions](markdown/others-frequently-asked-questions.md)
-
+The documents can be browsed at the link below:
+[https://microsoft.github.io/azure-data-services-go-fast-documentation/](https://microsoft.github.io/azure-data-services-go-fast-documentation/)
 
 ## Contributing
 
