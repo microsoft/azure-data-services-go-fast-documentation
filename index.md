@@ -1,8 +1,8 @@
 # Welcome
 
-Welcome to the documentation website for the Azure Data Services Go Fast. 
+Welcome to the documentation website for the Azure Data Services Go Fast. The Azure Data Services Go Fast opensource repositories exist to help Microsoft client's and partner's to shortcut the process of capability or maturity uplift with in the Data and Analytics domain. One of these repositories (https://github.com/microsoft/azure-data-services-go-fast-codebase) provides a pre-built framework that can be used to significanlty accelerate the implmentation of a Modern Data and Analytics platform. The information that you will find in this website serves to document that code base. 
 
-![CapabilityAssessmentOverview.png](../assets/img/CapabilityAssessmentOverview.png)
+The information has been organised to allow you to consume it in manageable "chunks". Please use the navigation bar provided on the left hand side of this page to navigate through the various sections. 
 
 # Contributing
 
