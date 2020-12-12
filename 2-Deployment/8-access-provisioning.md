@@ -6,22 +6,32 @@ The following sections will guide you through the processes required to set-up t
 
 ## Cloud Deployment Credentials
 
-- Azure Data Factory MSI - Grant the managed service identity for Azure Data Factory rights as per the list below: 
-    - Adventureworks Azure SQL Sample database [Read]
-    - Key Vault [Read Secrets]
-    - Datalake Storage Accounts [Blob Storage Contributor Role]
-    - On-Prem SQL Server (Proxied by Azure VM in Demo Environment) [Read];
-- Azure Functions MSI - Grant the managed service identity  rights as per the list below
-    - ADS Go Fast metadata database [Read,Write and Execute]
-    - Datalake Storage Accounts [Blob Storage Contributor Role]
-    - Azure Data Factory [Contributor Role];
-    - Application Insights for Function App & Web App [Read];
-    - Log Analytics for Data Factory [Read]
-- Web Application MSI - Grant the managed service identity  rights as per the list below
-    - ADS Go Fast metadata database [Read,Write and Execute]
-    - Datalake Storage Accounts [Blob Storage Contributor Role]
-    - Application Insights for Function App & Web App [Read];
-    - Log Analytics for Data Factory [Read]
+### Azure Data Factory MSI
+Grant the managed service identity for Azure Data Factory rights as per the table below: 
+| Resource | Rights Required | 
+| --------------- | --------------- | 
+|Adventureworks Azure SQL Sample database | [Read] |
+|Key Vault | [Read Secrets] |
+|Datalake Storage Accounts | [Blob Storage Contributor Role] |
+|On-Prem SQL Server (Proxied by Azure VM in Demo Environment) | [Read] |
+
+### Azure Functions MSI 
+Grant the managed service identity  rights as per the table below:
+| Resource | Rights Required | 
+| --------------- | --------------- | 
+| ADS Go Fast metadata database [Read,Write and Execute] |
+| Datalake Storage Accounts | [Blob Storage Contributor Role] |
+| Azure Data Factory | [Contributor Role] |
+| Application Insights for Function App & Web App | [Read] |
+|Log Analytics for Data Factory | [Read]
+### Web Application MSI 
+Grant the managed service identity  rights as per the table below:
+| Resource | Rights Required | 
+| --------------- | --------------- | 
+| ADS Go Fast metadata database | [Read,Write and Execute] |
+| Datalake Storage Accounts | [Blob Storage Contributor Role] |
+| Application Insights for Function App & Web App | [Read] |
+| Log Analytics for Data Factory | [Read] |
 
 ## EasyAuth & AAD Integration for the Web Application and Function Applications
 You will need to integrate both your function application and your web application with AAD. Do this by navigating to the deployed applications in the Azure portal and enable AAD integration using Easyauth. The function application makes self referencing, MSI based calls to other functions within the application. Consequently, your will need to ensure that the MSI for the function application has been placed in the appropriate role such that it is allowed to make the function call. To do this first create a role called "All" in your function app. Next assign the application's MSI to that new role. The link below contains instructions on how to do this. 
