@@ -8,6 +8,14 @@ The following sections will guide you through the processes required to set-up t
 
 ### Azure Data Factory MSI
 Grant the managed service identity for Azure Data Factory rights as per the table below: 
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
 | Resource | Rights Required | 
 | --------------- | --------------- | 
 |Adventureworks Azure SQL Sample database | [Read] |
