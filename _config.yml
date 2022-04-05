@@ -10,10 +10,10 @@ description: Documentation for the Azure Data Services Go Fast Framework. A fram
 #  shortcodes: true
 
 ## remote method ##
-remote_theme: rundocs/jekyll-rtd-theme
+#remote_theme: rundocs/jekyll-rtd-theme
 
-readme_index:
-  with_frontmatter: true
+#readme_index:
+#  with_frontmatter: true
 
 exclude:
   - Gemfile
