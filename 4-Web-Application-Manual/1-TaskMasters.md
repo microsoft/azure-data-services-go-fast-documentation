@@ -15,8 +15,11 @@ figure 1-2 and 1-3.
 
 
 ![1-1](../assets/img/4/TaskMasters/MainPage-1-1.png)
+<sup> Figure 1-1: Lockbox WebApp Main Page - Task Masters View Details selection </sup>
 ![1-2](../assets/img/4/TaskMasters/MainPagewithMenu-1-2.png)
+<sup>Figure 1-2: LockBox WebApp Main Menu - Tasks selection</sup>
 ![1-3](../assets/img/4/TaskMasters/MainPagewithMenuTasks-1-3.png)
+<sup>Figure 1-3: LockBox Menu Task Masters selection</sup>
 
 
 ## 1.1        Page overview
@@ -26,6 +29,7 @@ will be shown to you. Following the figure some more details will be
 provided on what each of these items represent.
 
 ![1.1-1](../assets/img/4/TaskMasters/TaskMasterPage-1_1-1.png)
+<sup>Figure 1.1-1: Task Masters page overview</sup>
 
 <table>
 <colgroup>
@@ -160,6 +164,7 @@ done by selecting the ‘Add Item’ button. This will then begin the Task
 Master creation wizard process. This is shown in figure 1.2.1-1.
 
 ![1.2.1-1](../assets/img/4/TaskMasters/TaskMasterPage-1_2-1.png)
+<sup>Figure 1.2.1-1: Task Masters Add Item overview</sup>
 
 ### 1.2.2   Step 1 – Task Name, Basic Settings and Type
 
@@ -235,6 +240,7 @@ Further details about Task Types can be found in section 1.3.</td>
 </table>
 
 [1.2.2-1](../assets/img/4/TaskMasters/TaskMasterWizardStep1-1_2_2-1.png)
+<sup>Figure 1.2.2-1: Task Masters creation wizard step 1</sup>
 
 ### 1.2.3   Step 2 – Source System
 
@@ -245,6 +251,7 @@ The following table references figure 1.2.3-1.
 | 1          | Source System Id | Dropdown       | This allows the user to select the source system to be used for the task being created. Depending on the Task Type, different source systems will be available to select. Source Systems are loaded from the MetadataDB table SourceAndTargetSystems. |
 
 ![1.2.3-1](../assets/img/4/TaskMasters/TaskMasterWizardStep2-1_2_3-1.png)
+<sup>Figure 1.2.3-1: Task Masters creation wizard step 2</sup>
 
 ### 1.2.4   Step 3 – Target System
 
@@ -255,6 +262,7 @@ The following table references figure 1.2.4-1.
 | 1          | Target System Id | Dropdown       | This allows the user to select the target system to be used for the task being created. Depending on the Task Type, different target systems will be available to select. Target Systems are loaded from the MetadataDB table SourceAndTargetSystems. |
 
 ![1.2.4-1](../assets/img/4/TaskMasters/TaskMasterWizardStep3-1_2_4-1.png)
+<sup>Figure 1.2.4-1: Task Masters creation wizard step 3</sup>
 
 ### 1.2.5   Step 4 – Task Type Specific Settings
 
@@ -269,10 +277,13 @@ The following table references figure 1.2.5-1.
 | 5          | Target          | Multiple       | This contains all of the data that will be compiled under the Target property within the Task Master JSON file. The data required for this property will differ depending on the Task Type. This can be modified by either using the inputs prompted (depending on Task Type) to the user or by selecting the JSON button next to the Source title text to modify the JSON file directly. The properties button will allow the user to modify and add new properties to the Target property within the Task Master JSON.                                                                                                                                                                     |
 
 ![1.2.5-1](../assets/img/4/TaskMasters/TaskMasterWizardStep4-1_2_5-1.png)
+<sup>Figure 1.2.5-1: Task Masters creation wizard step 4</sup>
 
 ![1.2.5-2](../assets/img/4/TaskMasters/TaskMasterWizardStep4-1_2_5-2.png)
+<sup>Figure 1.2.5-2: TaskMasterJson JSON button detail </sup>
 
 ![1.2.5-3](../assets/img/4/TaskMasters/TaskMasterWizardStep4-1_2_5-3.png)
+<sup>Figure 1.2.5-3: TaskMasterJson properties button detail </sup>
 
 
 ### 1.2.6   Step 5 – Performance, Dependencies and Advanced Settings
@@ -288,6 +299,7 @@ The following table references figure 1.2.6-1.
 | 5          | Engine Id                       | Dropdown       | This allows the user to select a specific Execution Engine to be used for the task when it is active. For example, if the user has multiple datafactory instances registered, it will allow them to select the specific instance they wish to use. By default, there is a datafactory and synapse workspace available as an engine. Ensure that you do not select a Synapse Execution Engine for an ADF pipeline as that will throw an error (and vice versa).                                |
 
 ![1.2.6-1](../assets/img/4/TaskMasters/TaskMasterWizardStep5-1_2_6-1.png)
+<sup>Figure 1.2.6-1: Task Masters creation wizard step 5 </sup>
 
 ## 1.3        Task Types
 
@@ -1074,7 +1086,10 @@ The Task Master Water Mark page can be accessed in a two different ways.
     object.
 
 ![1.4-1](../assets/img/4/TaskMasters/MainPagewithMenuTasks-1_4-1.png)
+<sup>Figure 1.4-1: Task Master Water Mark menu access </sup>
+
 ![1.4-2](../assets/img/4/TaskMasters/TaskMastersPageSelectedTask-1_4-2.png)
+<sup>Figure 1.4-2: Task Master Water Mark View Watermark access </sup>
 
 
 ### 1.4.1   Page overview
@@ -1084,6 +1099,7 @@ figure 1.1-1 will be shown to you. Following the figure some more
 details will be provided on what each of these items represent.
 
 ![1.4.1-1](../assets/img/4/TaskMasters/TaskMasterWatermarkPage-1_4_1-1.png)
+<sup>Figure 1.4.1-1: Task Master Water Marks page overview </sup>
 
 | **Number** | **Object Name**        | **Description**                                                                                                                                                                                                                                                                                                            |
 |------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1106,7 +1122,10 @@ mark. Details on this is provided in figure figure 1.4.2-2 and table
 be created and assigned to the Task Master specified.
 
 ![1.4.2-1](../assets/img/4/TaskMasters/TaskMasterWatermarkPage-1_4_2-1.png)
+<sup>Figure 1.4.2-1: Task Master Water Marks Add Item overview </sup>
+
 ![1.4.2-2](../assets/img/4/TaskMasters/TaskMasterWatermarkPageCreate-1_4_2-2.png)
+<sup>Figure 1.4.2-2: Task Master Water Marks Create Overview </sup>
 
 
 <table>
@@ -1203,6 +1222,7 @@ Master as required. For more information regarding the Task Master
 creation wizard refer to section 1.2 Creating a Task Master.
 
 ![1.5-1](../assets/img/4/TaskMasters/TaskMastersPageSelectedTask-1_5-1.png)
+<sup>Figure 1.5-1: Task Master Edit Item overview </sup>
 
 ## 1.6        Deleting a Task Master
 
@@ -1219,6 +1239,7 @@ user and a copy of the tasks will be created with ‘Copy’ as a suffix to
 their name.
 
 ![1.7-1](../assets/img/4/TaskMasters/TaskMastersPageSelectedTask-1_7-1.png)
+<sup>Figure 1.7-1: Task Master Copy Tasks overview </sup>
 
 ## 1.8        Activating / Deactivating a Task Master
 
@@ -1230,3 +1251,4 @@ will then prompt the user with a success message and the task will now
 be either active or inactive depending on the user choice.
 
 ![1.8-1](../assets/img/4/TaskMasters/TaskMastersPageSelectedTask-1_8-1.png)
+<sup>Figure 1.8-1: Task Master Activate/Deactivate Tasks overview </sup>
