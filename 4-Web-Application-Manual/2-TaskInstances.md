@@ -1,3 +1,7 @@
+---
+sort: 2
+---
+
 # 2. Task Instances
 
 The following section will go into detail on how to manage and view task

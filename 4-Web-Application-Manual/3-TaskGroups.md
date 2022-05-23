@@ -1,3 +1,7 @@
+---
+sort: 3
+---
+
 # 3. Task Groups
 
 The following section will go into detail on how to manage and view Task
