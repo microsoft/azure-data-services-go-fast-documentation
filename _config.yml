@@ -3,7 +3,7 @@ lang: en
 description: Documentation for the Azure Data Services Go Fast Framework. A framework for rapid deployment and configuration of common Azure Data Services Architectures.
 
 ## local method ##
-theme: jekyll-rtd-theme
+#theme: jekyll-rtd-theme
 #debug:
 #  compress: false
 #  dist: true
