@@ -29,7 +29,7 @@ When browsing the Schedule Master page, a layout similar to figure 4.1-1
 will be shown to you. Following the figure some more details will be
 provided on what each of these items represent.
 
-![4.1-1](../assets/img/4/Schedules/ScheduleMasterPage-4_1-1)<br/>
+![4.1-1](../assets/img/4/Schedules/ScheduleMasterPage-4_1-1.png)<br/>
 <sup>Figure 4.1-1: Schedule Masters page overview </sup><br/>
 
 <table>
