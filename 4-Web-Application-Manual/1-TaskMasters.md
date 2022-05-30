@@ -176,12 +176,10 @@ The following table references figure 1.2.2-1.
 <col style="width: 63%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Input Type</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -341,11 +339,9 @@ a registered on premises file server.
 <col style="width: 61%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Source Sub-type</strong></th>
 <th><strong>Target Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -466,11 +462,9 @@ as the Source and select any available SQL servers as the Target.
 <col style="width: 59%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -577,11 +571,9 @@ Source and select any available storage containers as the Target.
 <col style="width: 52%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -648,11 +640,9 @@ instead.
 <col style="width: 52%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -714,9 +704,7 @@ row returning, it will work properly.
 <col style="width: 100%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Task Master Inputs (always present)</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -735,11 +723,9 @@ row returning, it will work properly.
 <col style="width: 48%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -889,9 +875,7 @@ source and select any available storage devices as the target system.
 <col style="width: 100%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Task Master Inputs (always present)</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -912,11 +896,9 @@ source and select any available storage devices as the target system.
 <col style="width: 52%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -971,9 +953,7 @@ a source and target, if they do not wish to use a source or target.
 <col style="width: 100%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Task Master Inputs (always present)</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -995,11 +975,9 @@ a source and target, if they do not wish to use a source or target.
 <col style="width: 47%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Sub-type Name</strong></th>
 <th><strong>Sub-type</strong></th>
 <th><strong>Task Master Sub-type Inputs</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -1050,9 +1028,7 @@ against it.
 <col style="width: 100%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Task Master Inputs (always present)</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -1134,12 +1110,10 @@ be created and assigned to the Task Master specified.
 <col style="width: 58%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Input Type</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
