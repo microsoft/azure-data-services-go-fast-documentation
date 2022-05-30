@@ -33,11 +33,9 @@ provided on what each of these items represent.
 <col style="width: 69%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -157,11 +155,9 @@ will be provided on what each of these items represent.
 <col style="width: 74%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
