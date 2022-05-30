@@ -11,11 +11,9 @@ sort: 6
 <col style="width: 49%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Task Master Input</strong></th>
 <th><strong>Input Type</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
