@@ -38,11 +38,9 @@ on what each of these items represent.
 <col style="width: 72%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
@@ -147,12 +145,10 @@ properties are in detail.
 <col style="width: 59%" />
 </colgroup>
 <thead>
-<tr class="header">
 <th><strong>Number</strong></th>
 <th><strong>Object Name</strong></th>
 <th><strong>Input Type</strong></th>
 <th><strong>Description</strong></th>
-</tr>
 </thead>
 <tbody>
 <tr class="odd">
