@@ -22,6 +22,11 @@ other way is to access it through the View Menu button shown in figure
 ![3-3](../assets/img/4/TaskGroups/MainPagewithMenuTasks-3-3.png)<br/>
 <sup>Figure 3-3: ADSGoFast Main Page Task Groups  selection </sup><br/>
 
+**What is a Task Group?**<br/>
+A Task Group can be thought of as a 'bag' or group of Task Masters. When creating a Task Master, you can assign
+it to a Task Group. This will allow you to assign overarching properties to every Task Master within that group.
+For example, a Task Group can be assigned a priority, which will also give a priority to every Task Master
+within that group. 
 ## 3.1        Page overview
 
 When browsing the Task Group page, a layout similar to figure 3.1-1 will

@@ -17,6 +17,11 @@ figure 2-1 and 2-2, it is accessed through the View Menu button.
 ![2-2](../assets/img/4/TaskInstances/MainPagewithMenuTasks-2-2.png)<br/>
 <sup>Figure 2-2: LockBox Menu Task Instances selection </sup><br/>
 
+**What is a Task Instance?**<br/>
+A Task Instance can be thought of as a specific execution of a Task Master. It is the single 'instance'
+in of its relative Task Master that is being executed in real time. It will show the progress of the 
+execution and allow the user to understand if the Task has been completed, failed, or is in progress.
+
 ## 2.1        Page overview
 
 When browsing the Task Instances page, a layout similar to figure 2.1-1

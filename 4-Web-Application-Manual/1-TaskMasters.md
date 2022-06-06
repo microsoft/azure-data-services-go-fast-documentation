@@ -13,13 +13,20 @@ The Task Master page can be accessed in two ways. As shown in figure
 The other way is to access it through the View Menu button shown in
 figure 1-2 and 1-3.
 
-
 ![1-1](../assets/img/4/TaskMasters/MainPage-1-1.png) <br/>
 <sup> Figure 1-1: Lockbox WebApp Main Page - Task Masters View Details selection </sup> <br/>
+
 ![1-2](../assets/img/4/TaskMasters/MainPagewithMenu-1-2.png) <br/>
 <sup>Figure 1-2: LockBox WebApp Main Menu - Tasks selection</sup> <br/>
+
 ![1-3](../assets/img/4/TaskMasters/MainPagewithMenuTasks-1-3.png) <br/>
 <sup>Figure 1-3: LockBox Menu Task Masters selection</sup> <br/>
+
+**What is a Task Master?**<br/>
+A Task Master can be thought of as a creation of a specific procedure or objective. You will define 
+what specifically you want to do within a Task Master, whether it be a movement between storage
+devices, or something such as retrieving data from a SQL server. A Task Master holds the definition of
+the what's, where's, when's and who's.
 
 
 ## 1.1        Page overview

@@ -23,6 +23,11 @@ figure 4-2 and 4-3.
 ![4-3](../assets/img/4/Schedules/MainPagewithMenuSchedule-4-3.png)<br/>
 <sup>Figure 4-3: LockBox Main Page Schedule Masters selection </sup><br/>
 
+**What is a Schedule?**<br/>
+A Schedule can be thought of a time table for tasks. Task Masters can be assigned a schedule to ensure that
+they run at required times, creating a Task Instance
+each time that schedule's conditions (Cron Expression) is met.
+
 ## 4.1        Schedule Master Page Overview
 
 When browsing the Schedule Master page, a layout similar to figure 4.1-1
