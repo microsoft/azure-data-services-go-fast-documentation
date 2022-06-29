@@ -15,8 +15,10 @@ the Lockbox.
 <col style="width: 62%" />
 </colgroup>
 <thead>
+<tr class="header">
 <th><strong>Table</strong></th>
 <th><strong>Detail</strong></th>
+</tr>
 </thead>
 <tbody>
 <tr class="odd">
